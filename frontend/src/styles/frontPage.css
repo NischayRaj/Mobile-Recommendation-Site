@@ -1,6 +1,8 @@
 .entire-page {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     height: 100vh; 
     width: 100vw; 
     border: 5px solid yellow;
@@ -8,12 +10,37 @@
 
 .left-side {
     border: 5px solid red;
-    height: 100vh; 
-    width: 100vw; 
+    margin: 10px; 
+    padding: 20px;
+    color:yellow;
+    font-size: 120px;
+    font-weight: bold;
+}
+
+.info{
+    color: gray;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .right-side{
     border: 5px solid blue;
-    height: 100vh; 
-    width: 100vw; 
+    margin: 10px; 
+    padding: 20px;
+    height: 430px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile{
+    border: 5px solid yellow;
+    height:300px;
+    width: 150px;
+    background-color:black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
