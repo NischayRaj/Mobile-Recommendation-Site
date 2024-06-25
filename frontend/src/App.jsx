@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import FrontPage from './components/frontPage'
-import SliderComponent from './components/sliderComponent'
+// import CustomSlider from './components/customSlider'
+import Prices from './components/prices'
 function App() {
 
   return (
     <div className='main-page'>
       <FrontPage/>
-      <SliderComponent/>
+      {/* <CustomSlider/> */}
+      <Prices/>
     </div>
   )
 }

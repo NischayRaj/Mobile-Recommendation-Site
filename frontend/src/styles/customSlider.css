@@ -1,0 +1,28 @@
+/* .slider-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.rc-slider-mark-text {
+  display: none; /* Hide the marks text */
+}
+
+.rc-slider-dot {
+  border: 2px solid yellow;
+  background-color: yellow;
+  width: 12px;
+  height: 12px;
+  bottom: -4px;
+}
+
+.rc-slider-dot-active {
+  border-color: yellow;
+  background-color: yellow;
+}
+
+.value-display {
+  margin-top: 10px;
+  font-size: 18px;
+} */
