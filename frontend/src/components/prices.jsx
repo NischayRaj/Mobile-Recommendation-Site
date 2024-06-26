@@ -1,5 +1,5 @@
 import React from 'react';
-
+import '../styles/prices.css'
 function Prices(props) {
   const buttonRows = [];
 
